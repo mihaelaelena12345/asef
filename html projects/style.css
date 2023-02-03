@@ -4,10 +4,24 @@
     font-family: 'Playfair Display', serif, 'Merriweather', arial;
 }
 
+/* scroll */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(167, 167, 167); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(117, 117, 117); 
+}
+
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(ohriddrone.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/ohriddrone.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -137,7 +151,7 @@
 .places{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(svsofija.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/svsofija.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -206,6 +220,12 @@
 
 
 /* Clear floats after image containers */
+.row{
+  display: flex;
+  gap: 5px;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
 .row::after {
   content: "";
   clear:both;
@@ -231,7 +251,7 @@
 .culture{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(paun.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/paun.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -290,6 +310,63 @@
   line-height:1.5em;
 }
 
-@media (max-width: 768px) {
+.disabled {
+  display: none !important;
+}
+
+.menuButton{
+  height: 50px;
+  width: 100%;
+
+  margin-right: 10px;
+
+  display: none;
+  justify-content: right;
+}
+
+.nav{
+  display: flex;
+}
+
+
+@media (max-width: 1000px) {
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+
+    position: sticky;
+
+  }
+  .nav li{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+
+  }
+  .nav li a{
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .nav li:last-child{
+    border: none;
+  }
+  .menuButton{
+    display: flex;
+    position: relative;
+  }
+  .row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    width: 500px;
+  }
 
 }
