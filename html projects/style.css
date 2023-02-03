@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif, 'Merriweather', arial;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(ohriddrone.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    .navbar{
+      width:50%;
+      margin:auto;
+      padding:10px 0;
+      display:flex;
+      flex:1;
+      text-align: right;
+      align-items: right;
+      justify-content: space-between;
+    }
+    .navbar ul {
+      list-style: none;
+      display:inline-block;
+      padding: 8px 12px;
+      position: relative;
+    }
+    .navbar li{
+      display: inline-block;
+    }
+    .navbar a{
+      text-decoration: none;
+      color: #fff;
+      width:100px;
+      display: block;
+      padding: 25px 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family:serif ;
+      text-align:center;
+      transition: 0.5s;
+    }
+    .navbar a:hover{
+      background:#808080;
+}
+
+    .text-box{
+      width:90%;
+      color:#fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      text-align:center;
+    }
+    .text-box h1{
+      font-size:50px;
+      margin-top:80px;
+    }
+    .text-box p{
+      margin:20px auto;
+      font-weight: 100;
+      line-height: 25px;
+    }
+    .button{
+      width:150px;
+      text-align: center;
+      color:#fff;
+      margin: 4px 2px;
+      font-size: 16px;
+      border: 2px solid #fff;
+      padding: 15px 10px;
+      text-decoration:none;
+      border-radius: 25px;
+      font-weight: normal;
+      cursor: pointer;
+      display: inline-block;
+      position:relative;
+      overflow: hidden;
+      transition:0.5s;
+    }
+    .button:hover{
+      background:#808080;
+    }
+
+
+  
+
+/* main part*/
+
+.course{
+     width:80%;
+     margin: auto;
+     text-align:center;
+     padding-top:100px;
+   }
+   .h1{
+      font-size: 36px;
+      font-weight:600;
+   }
+   .p{
+     color: #fff;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 22px;
+     padding: 10px;
+
+   }
+   .ohridcity{
+     width:100%;
+     margin:auto;
+     padding:35px 0;
+     display:flex;
+     flex:1;
+     text-align: center;
+     align-items: flex-start;
+     justify-content:center;
+
+   }
+.par1
+{
+  font-style:normal;
+  width:50%;
+  margin:auto;
+  padding:35px 0;
+  display:flex;
+  flex:1;
+  text-align: left;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+
+
+
+.places{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(svsofija.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    
+    
+.menu{
+    width:50%;
+    margin:auto;
+    padding:10px 0;
+    display:flex;
+    flex:1;
+    background-color:#0d1119;
+    text-align: right;
+    background-position: 50px;
+    background-repeat: space;
+    align-items: right;
+    justify-content: space-between;
+  }
+  .menu ul {
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-top:auto;
+    color: #1122cc;
+  }
+  .menu li{
+    display: inline-block;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #fff;
+    width:100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:serif ;
+    text-align:center;
+    transition: 0.5s;
+  }
+  .menu a:hover{
+    background:#808080;
+}
+
+
+.card{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: left;
+  box-sizing: border-box;
+  width: 24.6%;
+  margin: 3px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear:both;
+  display: table;
+}
+
+.namelink{
+  width:150px;
+  text-align:end;
+  align-items: flex-start;
+  color:#1122cc;
+  margin: 4px 2px;
+  font-size: 16px;
+  padding: 15px 10px;
+  text-decoration:none;
+  border-radius: 25px;
+  font-weight: normal;
+  cursor: pointer;
+  display:flex;
+  position: relative;
+  overflow: auto;
+}
+.culture{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(paun.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.slika1{
+
+  width: 60%;
+  height: 10vh;
+  position: center;
+  font-style:normal;
+  margin:auto;
+  padding:35px 0;
+  display:flex;
+  flex:1;
+  text-align: left;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+.imeMesto{
+  /*width:100%;
+  margin:auto;
+  padding: 35px 0;
+  display:flex;
+  flex:1;
+  text-align:left;
+  align-items: flex-start;
+  justify-content:flex-start;
+  */
+  font-style:normal;
+  width:60%;
+  margin:auto;
+  padding:35px 0;
+  display:flex;
+  flex:1;
+  font-size: 25px;
+  text-align: left;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+.tekstMesto{
+  font-style:normal;
+  width:60%;
+  margin:auto;
+  padding:35px 0;
+  display:flex;
+  flex:1;
+  font-size: 20px;
+  text-align: left;
+  align-items:flex-start;
+  justify-content:flex-start;
+  line-height:1.5em;
+}
+
+@media (max-width: 768px) {
+
+}
